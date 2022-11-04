@@ -1,0 +1,77 @@
+{
+  "class": "dataset",
+  "label": "Liikennekäytössä olevat henkilöautot muuttujina Alue, Merkki, Käyttöönottovuosi ja Käyttövoima",
+  "source": "Traficom",
+  "updated": "2022-10-13T09:00:00Z",
+  "id": [
+    "Alue",
+    "Merkki",
+    "Käyttöönottovuosi",
+    "Käyttövoima"
+  ],
+  "size": [
+    2,
+    1,
+    1,
+    1
+  ],
+  "dimension": {
+    "Alue": {
+      "label": "Alue",
+      "category": {
+        "index": {
+          "MA1": 0,
+          "KU179": 1
+        },
+        "label": {
+          "MA1": "MANNER-SUOMI",
+          "KU179": "Jyväskylä"
+        }
+      }
+    },
+    "Merkki": {
+      "label": "Merkki",
+      "category": {
+        "index": {
+          "2055": 0
+        },
+        "label": {
+          "2055": "Tesla Motors"
+        }
+      }
+    },
+    "Käyttöönottovuosi": {
+      "label": "Käyttöönottovuosi",
+      "category": {
+        "index": {
+          "YH": 0
+        },
+        "label": {
+          "YH": "Yhteensä"
+        }
+      }
+    },
+    "Käyttövoima": {
+      "label": "Käyttövoima",
+      "category": {
+        "index": {
+          "YH": 0
+        },
+        "label": {
+          "YH": "Yhteensä"
+        }
+      }
+    }
+  },
+  "value": [
+    10114,
+    181
+  ],
+  "role": {},
+  "version": "2.0",
+  "extension": {
+    "px": {
+      "decimals": 0
+    }
+  }
+}
