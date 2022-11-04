@@ -1,3 +1,3 @@
 # tesla_stats
 
-Just a small script to get some Tesla stats from Traficoms statistics database
+Just a small script to get some Tesla stats from Traficom's statistics database
