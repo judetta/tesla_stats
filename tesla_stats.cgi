@@ -10,7 +10,7 @@ def get_tesla_stats():
     """
 
     url = 'https://trafi2.stat.fi:443/PXWeb/api/v1/fi/TraFi/Liikennekaytossa_olevat_ajoneuvot/010_kanta_tau_101.px'
-    query = '{"query": [{"code": "Alue", "selection": {"filter": "agg:TRAFICOM Kunnat aakkosjärjestyksessä 2022.agg", "values": ["MA1", "KU179"]}}, {"code": "Merkki", "selection": {"filter": "item", "values": ["2055"]}}, {"code": "Käyttöönottovuosi", "selection": {"filter": "item", "values": ["YH"]}}, {"code": "Käyttövoima", "selection": {"filter": "item", "values": ["YH"]}}], "response": {"format": "json-stat2"}}'
+    query = '{"query": [{"code": "Alue", "selection": {"filter": "item", "values": ["MA1", "KU179"]}}, {"code": "Merkki", "selection": {"filter": "item", "values": ["2055"]}}, {"code": "Käyttöönottovuosi", "selection": {"filter": "item", "values": ["YH"]}}, {"code": "Käyttövoima", "selection": {"filter": "item", "values": ["YH"]}}], "response": {"format": "json-stat2"}}'
 
     query = json.loads(query)
     response = requests.post(url, json=query)

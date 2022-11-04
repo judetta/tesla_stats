@@ -3,7 +3,7 @@
     {
       "code": "Alue",
       "selection": {
-        "filter": "agg:TRAFICOM Kunnat aakkosjärjestyksessä 2022.agg",
+        "filter": "item",
         "values": [
           "MA1",
           "KU179"
