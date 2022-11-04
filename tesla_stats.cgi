@@ -44,7 +44,7 @@ print('<h2>Count of registered Teslas</h2>')
 if success:
     print('<ul>')
     print('<li>')
-    print('In Finland:')
+    print('In Finland:', stats['finland'])
     print('</li>')
     print('<li>')
     print('In Jyväskylä:', stats['jyvaskyla'])
